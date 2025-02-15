@@ -1,0 +1,19 @@
+{
+  "name": "pigmalion",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "main.js",
+  "scripts": {
+  "start": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francostan/pigmalion.git"
+  },
+  "author": "francostan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/francostan/pigmalion/issues"
+  },
+  "homepage": "https://github.com/francostan/pigmalion#readme"
+}
