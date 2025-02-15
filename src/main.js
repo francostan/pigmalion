@@ -1,1 +1,4 @@
-console.log("Hola mundoo!")
+import { main } from "./utils/service.js";
+
+main();
+

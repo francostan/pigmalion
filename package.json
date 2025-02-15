@@ -2,9 +2,10 @@
   "name": "pigmalion",
   "version": "1.0.0",
   "description": "test",
+  "type": "module",
   "main": "main.js",
   "scripts": {
-  "start": "node src/main.js"
+    "start": "node src/main.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/francostan/pigmalion/issues"
   },
-  "homepage": "https://github.com/francostan/pigmalion#readme"
+  "homepage": "https://github.com/francostan/pigmalion#readme",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
 }

@@ -1,31 +1,37 @@
-# Mi Aplicación Node.js
+# Pigmalion
 
 ## Descripción
 
-Este proyecto es una aplicación de ejemplo construida con **Node.js** utilizando **JavaScript** como lenguaje principal. El objetivo es demostrar una estructura básica y organizada de un proyecto Node.js, ideal para comenzar y comprender cómo organizar tus aplicaciones.
+Este proyecto es una aplicación de ejemplo construida con **Node.js** utilizando **JavaScript** (ES Modules) como lenguaje principal. Su objetivo es demostrar una estructura modular y organizada para resolver el sgte. enunciado: determinar si es posible formar un número a partir de la suma de dos elementos de un array ingresado por el usuario.
 
 ## Lenguaje y Herramientas
 
-- **Lenguaje**: JavaScript
-- **Node.js**: Versión 18.x  
-- **npm**: Versión 8.x
-
-> **Nota:** Las versiones mencionadas son ejemplos. Asegúrate de usar las versiones recomendadas o las que mejor se adapten a tus necesidades.
+- **Lenguaje:** JavaScript (ES Modules)
+- **Node.js:** Versión 23.7.0
+- **npm:** Versión 10.9.2
 
 ## Estructura del Proyecto
 
-- **src/main.js**: Archivo principal que contiene la lógica de la aplicación.  
-- **README.md**: Archivo de documentación que explica el proyecto, las herramientas utilizadas y cómo ejecutarlo.
+- **src/main.js:** Archivo principal que contiene la interacción con el usuario y la lógica para resolver el ejercicio.
+- **utils/index.js:** Archivo de utilidades que agrupa funciones de validación, conversión de entrada y las implementaciones de las soluciones (optimizada y no optimizada).
+- **package.json:** Archivo de configuración del proyecto. Se incluye `"type": "module"` para trabajar con ES Modules.
 
 ## Instrucciones de Uso
 
-1. **Abre la carpeta pigmalion en una terminal:**  
-   No necesitas instalar dependencias
+1. **Abre la carpete pigmalion en una terminal:**  
+   Ejecuta el siguiente comando en la raíz del proyecto:
+   ```bash
+   npm install
 
 2. **Ejecución de la aplicación:**  
-   Inicia la aplicación con:
-   npm start (ejecuta main.js)
+   Inicia la aplicación con el siguiente comando:
+   ```bash
+   npm start
+   
+   Este comando ejecuta el archivo src/main.js y abre una sesión interactiva en la terminal.
 
-2. **Verificación:**  
-   Al ejecutar el comando anterior, deberías ver en la consola el resultado final:
-   ""
+3. **Interacción y verificación:**  
+    Sigue las instrucciones dadas por el terminal.
+
+4. **Respuesta:**  
+    Una vez terminado el proceso, la terminal imprimera el tiempo de ejecucion y la respuesta final sobre si es posible lograr la suma solicitada con dos elementos del array.
