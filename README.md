@@ -27,8 +27,6 @@ Este proyecto es una aplicación de ejemplo construida con **Node.js** utilizand
    Inicia la aplicación con el siguiente comando:
    ```bash
    npm start
-   
-   Este comando ejecuta el archivo src/main.js y abre una sesión interactiva en la terminal.
 
 3. **Interacción y verificación:**  
     Sigue las instrucciones dadas por el terminal.
